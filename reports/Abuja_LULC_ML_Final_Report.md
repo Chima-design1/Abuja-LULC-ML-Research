@@ -616,53 +616,53 @@ The repository does not contain the study-area map referred to in the original d
 
 ![Abuja LULC 2018](../report_figures/lulc_maps/Abuja_LULC_2018_year_specific.png)
 
-**Figure 1.** Year-specific LULC classification for 2020.
+**Figure 2.** Year-specific LULC classification for 2020.
 
 ![Abuja LULC 2020](../report_figures/lulc_maps/Abuja_LULC_2020_year_specific.png)
 
-**Figure 1.** Year-specific LULC classification for 2022.
+**Figure 3.** Year-specific LULC classification for 2022.
 
 ![Abuja LULC 2022](../report_figures/lulc_maps/Abuja_LULC_2022_year_specific.png)
 
-**Figure 1.** Year-specific LULC classification for 2024.
+**Figure 4.** Year-specific LULC classification for 2024.
 
 ![Abuja LULC 2024](../report_figures/lulc_maps/Abuja_LULC_2024_year_specific.png)
 
 ### LULC Change Maps
 
-**Figure 1.** LULC change between 2018 and 2020.
+**Figure 5.** LULC change between 2018 and 2020.
 
 ![LULC Change 2018-2020](../report_figures/change_maps/Abuja_LULC_Change_2018_2020.png)
 
-**Figure 1.** LULC change between 2020 and 2022.
+**Figure 6.** LULC change between 2020 and 2022.
 
 ![LULC Change 2020-2022](../report_figures/change_maps/Abuja_LULC_Change_2020_2022.png)
 
-**Figure 1.** LULC change between 2022 and 2024.
+**Figure 7.** LULC change between 2022 and 2024.
 
 ![LULC Change 2022-2024](../report_figures/change_maps/Abuja_LULC_Change_2022_2024.png)
 
-**Figure 1.** Overall LULC change between 2018 and 2024.
+**Figure 8.** Overall LULC change between 2018 and 2024.
 
 ![LULC Change 2018-2024](../report_figures/change_maps/Abuja_LULC_Change_2018_2024.png)
 
 ### Change Analysis
 
-**Figure 1.** LULC area trends from 2018 to 2024.
+**Figure 9.** LULC area trends from 2018 to 2024.
 
 ![LULC Area Trends](../report_figures/change_figures/Figure_1_LULC_Area_Trends.png)
 
-**Figure 1.** Net LULC change from 2018 to 2024.
+**Figure 10.** Net LULC change from 2018 to 2024.
 
 ![Net LULC Change](../report_figures/change_figures/Figure_2_Net_LULC_Change.png)
 
-**Figure 1.** Dominant LULC transitions across the study period.
+**Figure 11.** Dominant LULC transitions across the study period.
 
 ![Dominant LULC Transitions](../report_figures/change_figures/Figure_3_Dominant_LULC_Transitions.png)
 
 ### 2026 Baseline Scenario
 
-**Figure 1.** Exploratory 2026 baseline LULC scenario.
+**Figure 12.** Exploratory 2026 baseline LULC scenario.
 
 ![Abuja LULC 2026 Baseline Scenario](../report_figures/prediction_2026/Abuja_LULC_2026_Baseline_Scenario.png)
 

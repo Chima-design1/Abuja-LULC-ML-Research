@@ -162,7 +162,7 @@ A transition-probability approach was used to construct an exploratory 2026 base
 
 Transition probabilities were derived from the 2022–2024 transition matrix.
 
-Expected 2026 class quantities were calculated from the 2024 class quantities and transition probabilities. A deterministic spatial allocation then assigns changes to meet the calculated target class quantities. The result is a quantity-constrained baseline scenario, not a definitive spatial forecast.
+Expected 2026 class quantities were calculated from the 2024 class quantities and transition probabilities. Pixels were assigned to meet these targets in descending source-to-destination probability order. Equal-probability candidates follow deterministic source/destination iteration and raster row-order tie-breaking. No location-specific suitability score or spatial driver is used. The result is a quantity-constrained baseline scenario, not a definitive spatial forecast.
 
 Transition probabilities are estimated from 2022–2024. The resulting 2026 map is an exploratory, quantity-constrained, transition-based baseline scenario; deterministic allocation produces a spatial illustration but does not establish where future development will occur.
 

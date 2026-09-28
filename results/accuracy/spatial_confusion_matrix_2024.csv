@@ -1,0 +1,6 @@
+,Pred Built-up,Pred Vegetation,Pred Bare land,Pred Water,Pred Cropland
+Actual Built-up,677,18,281,3,99
+Actual Vegetation,8,841,0,2,162
+Actual Bare land,190,0,842,0,72
+Actual Water,0,4,0,2492,4
+Actual Cropland,96,189,45,5,768

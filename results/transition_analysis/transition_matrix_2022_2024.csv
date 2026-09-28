@@ -1,0 +1,26 @@
+from_class,from_class_name,to_class,to_class_name,pixel_count
+0,Built-up,0,Built-up,1537087
+0,Built-up,1,Vegetation,23785
+0,Built-up,2,Bare land,519116
+0,Built-up,3,Water,3487
+0,Built-up,4,Cropland,209646
+1,Vegetation,0,Built-up,52589
+1,Vegetation,1,Vegetation,323747
+1,Vegetation,2,Bare land,59842
+1,Vegetation,3,Water,522
+1,Vegetation,4,Cropland,232183
+2,Bare land,0,Built-up,733918
+2,Bare land,1,Vegetation,21715
+2,Bare land,2,Bare land,1259510
+2,Bare land,3,Water,765
+2,Bare land,4,Cropland,199010
+3,Water,0,Built-up,5521
+3,Water,1,Vegetation,3086
+3,Water,2,Bare land,763
+3,Water,3,Water,20212
+3,Water,4,Cropland,3892
+4,Cropland,0,Built-up,340047
+4,Cropland,1,Vegetation,161280
+4,Cropland,2,Bare land,253601
+4,Cropland,3,Water,3086
+4,Cropland,4,Cropland,966447

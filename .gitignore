@@ -1,0 +1,64 @@
+﻿# ==============================
+# Python environments
+# ==============================
+.venv/
+.venv313/
+__pycache__/
+*.py[cod]
+*.pyd
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Large geospatial data
+# ==============================
+data/raw/
+data/processed/
+data/reference/
+data/samples/
+
+# ==============================
+# Large generated outputs
+# ==============================
+outputs/
+
+# ==============================
+# Temporary QC / packaging files
+# ==============================
+qc/
+qc_accuracy/
+qc_results/
+*.zip
+
+# ==============================
+# Local credentials / secrets
+# ==============================
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ==============================
+# OS / editor files
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+*.bak
+
+data/exports/
+
+# Notebook backups
+notebooks/*_backup.ipynb

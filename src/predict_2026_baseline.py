@@ -353,11 +353,12 @@ for source in CLASS_CODES:
         if probability <= 0:
             continue
 
-        # Change score combines destination probability
-        # with the source pixel's class relationship.
-        #
-        # A deterministic spatial ordering is used so
-        # results are reproducible.
+        # Candidate score is the source-to-destination
+        # transition probability; it is constant within
+        # each source/destination pair. Stable sorting,
+        # source/destination iteration order, and row-major
+        # np.argwhere output make ties deterministic. No
+        # location-specific suitability score is calculated.
 
         for row, col in source_pixels:
 

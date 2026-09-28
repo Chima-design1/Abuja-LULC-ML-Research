@@ -134,3 +134,8 @@ This keeps the repository lightweight while retaining the code, documentation, r
 Maps and statistics should be interpreted together with `RESULTS_INTERPRETATION.md` and `LIMITATIONS.md`.
 
 In particular, historical labels are derived from the 2024 reference classification and therefore do not represent fully independent field-validated ground truth for every historical year.
+
+
+## QGIS Project Portability
+
+`Abuja_LULC_Analysis.qgz` contains nine layer references to local `data/exports/` raster files named for 2023–2024. These raster files are excluded from the repository and are not available for validation here. The QGIS project may therefore open with missing layers and should be treated as a legacy local artifact, not as a verified view of the published 2018, 2020, 2022 and 2024 study outputs. No substitute rasters or map figures have been generated.

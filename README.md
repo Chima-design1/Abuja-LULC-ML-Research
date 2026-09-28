@@ -77,7 +77,7 @@ python -m pip install -r requirements.txt
 python src/test_project_setup.py
 ```
 
-The setup check only verifies local prerequisites. The workflow scripts expect data and generated inputs in the paths defined by the scripts and configuration; these large/private inputs are not bundled. Obtain Sentinel-2 data and the study boundary, place them in the expected local directories, and run the relevant scripts in sequence. Inspect each script's input/output paths before execution. Existing CSV results are provided for review; reproducing them requires the omitted inputs. See [data documentation](documentation/MAPS_AND_DATA.md). The QGIS project is included, but may rely on local layers.
+The setup check only verifies local prerequisites. The workflow scripts expect data and generated inputs in the paths defined by the scripts and configuration; these large/private inputs are not bundled. Obtain Sentinel-2 data and the study boundary, place them in the expected local directories, and run the relevant scripts in sequence. Inspect each script's input/output paths before execution. Existing CSV results are provided for review; reproducing them requires the omitted inputs. See [data documentation](documentation/MAPS_AND_DATA.md). The included QGIS project is a legacy local artifact: its nine layer references point to untracked `data/exports/` rasters named for 2023–2024. Those assets are excluded from Git, and the project is not a portable view of the published 2018/2020/2022/2024 results. It has not been reconstructed because the referenced rasters are not available in this repository.
 
 ## Repository structure
 

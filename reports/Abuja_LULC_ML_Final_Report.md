@@ -601,7 +601,7 @@ The current project repository is [`Chima-design1/Abuja-LULC-ML-Research`](https
 - `report_figures/` — selected report-ready maps and plots;
 - `results/` — lightweight accuracy, area, change and transition tables;
 - `reports/` — final Markdown report;
-- `Abuja_LULC_Analysis.qgz` — QGIS project;
+- `Abuja_LULC_Analysis.qgz` — legacy QGIS project that references nine untracked local 2023–2024 exports under `data/exports/`; it is not a verified view of the published study-year outputs;
 - `README.md` and `requirements.txt` — project overview and Python dependencies.
 
 Raw Sentinel-2 imagery, local study-boundary inputs, processed feature stacks, training samples and generated raster outputs are not tracked. Reproduction therefore requires obtaining or creating those inputs and following the script paths and sequence documented in the README and `documentation/MAPS_AND_DATA.md`. Published CSV results and figures are retained as reviewable outputs.

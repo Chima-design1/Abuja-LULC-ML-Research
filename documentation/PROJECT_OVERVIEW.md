@@ -70,3 +70,8 @@ Large raw, processed and intermediate datasets are intentionally excluded from t
 Historical classifications were developed using year-specific models trained from pseudo-labels derived from the 2024 reference classification. They therefore should not be interpreted as fully independent ground-truth classifications.
 
 The 2026 result is an exploratory, quantity-constrained, transition-based baseline scenario using 2022–2024 transition probabilities and deterministic spatial allocation, not a definitive spatial forecast.
+
+
+## QGIS Project Status
+
+The tracked QGIS project references nine untracked local exports in `data/exports/`, with layer names referring to 2023–2024. Those inputs are unavailable in this repository, so the project is not verified as a portable visualization of the published study-year results.

@@ -60,7 +60,7 @@ From 2018 to 2024, mapped Built-up rose from 214.63 to 270.49 km² (+55.87 km²)
 
 ## 2026 baseline scenario
 
-The scenario applies transition probabilities estimated from the 2022–2024 transition matrix to 2024 class quantities, then deterministically allocates changes to meet the resulting class quantities. It is exploratory, quantity-constrained and transition-based; it is not a definitive spatial forecast. It does not model independent development drivers or validate future outcomes. See [scenario outputs](results/prediction_2026/) and [limitations](documentation/LIMITATIONS.md).
+The scenario applies transition probabilities estimated from the 2022–2024 transition matrix to 2024 class quantities, then assigns pixels in descending transition-probability order with deterministic source/destination and raster-row-order tie-breaking. It is exploratory, quantity-constrained and transition-based; it does not use location-specific suitability scores or drivers and is not a definitive spatial forecast. It does not model independent development drivers or validate future outcomes. See [scenario outputs](results/prediction_2026/) and [limitations](documentation/LIMITATIONS.md).
 
 ## Limitations
 
@@ -95,7 +95,7 @@ requirements.txt
 
 ## Software and tools
 
-Python, NumPy, Pandas, Rasterio, GeoPandas, Shapely, scikit-learn, Matplotlib, QGIS and Git/GitHub. Exact Python package dependencies are listed in requirements.txt.
+Python, NumPy, Pandas, Rasterio, GeoPandas, Shapely, scikit-learn, Matplotlib, QGIS and Git/GitHub. Direct Python dependencies are listed in requirements.txt; tested package versions are not pinned, so this file is not a fully locked environment.
 
 ## Project status
 

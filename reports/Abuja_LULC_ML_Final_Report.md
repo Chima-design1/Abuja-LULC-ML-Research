@@ -115,11 +115,11 @@ A reference LULC raster for 2024 was used to generate the training labels requir
 The five classes were:
 | Class code | LULC class |
 |---:|---|
-| 1 | Built-up area |
-| 2 | Vegetation |
-| 3 | Bare land |
-| 4 | Water |
-| 5 | Cropland |
+| 0 | Built-up |
+| 1 | Vegetation |
+| 2 | Bare land |
+| 3 | Water |
+| 4 | Cropland |
 The reference raster was aligned with the 2024 feature stack and candidate pixels were sampled from valid areas. Approximately 25,000 candidate observations were generated for the initial 2024 training dataset, with approximately 5,000 observations per class. After quality-control filtering, 24,996 observations remained.
 The quality-control process removed observations containing invalid reflectance values or indices outside their expected ranges. The cleaned dataset contained approximately equal representation of the five classes.
 For the year-specific historical classifications, samples were generated from the valid pixels of each year's feature stack while using the 2024 reference classification as the source of pseudo-label information. Therefore, the historical training labels should not be interpreted as independently surveyed ground-truth observations.
@@ -287,14 +287,14 @@ P_{ij} =
 {\sum_j N_{ij}}
 \]
 where \(N_{ij}\) represents the number of pixels transitioning from class \(i\) to class \(j\).
-The resulting probabilities were applied to the 2024 class quantities to estimate expected 2026 class quantities.
-The expected changes were then spatially allocated to the 2024 classification raster so that the final 2026 class totals matched the transition-based targets.
-The resulting 2026 map is therefore a **baseline scenario** rather than a fully validated predictive model. It does not explicitly model drivers such as population growth, road development, planning policies, economic activity, topography, or protected areas.
+The resulting probabilities were applied to the 2024 class quantities to estimate expected 2026 class quantities. The scenario is quantity-constrained: the expected class totals define the target quantities for the 2026 allocation.
+The expected changes were then spatially allocated to the 2024 classification raster using a deterministic allocation procedure so that the final 2026 class totals matched the transition-based targets.
+The resulting 2026 map is therefore an **exploratory, quantity-constrained, transition-based baseline scenario** rather than a fully validated spatial forecast. It is not a definitive prediction of future land cover. It does not explicitly model drivers such as population growth, road development, planning policies, economic activity, topography, or protected areas.
 4.13 Workflow Reproducibility
 The project was structured to support reproducibility.
 Source scripts were organized in the `src` directory and were used for data acquisition planning, preprocessing, sample generation, model training, classification, area calculation, transition analysis, change mapping, figure generation, and 2026 scenario generation.
 The project also includes documentation describing the methodology, results, limitations, maps, and data structure.
-The GitHub repository contains the principal code, documentation, selected raster outputs, result tables, maps, and the original Google Earth Engine workflow. The local project contains the complete processing structure used to generate the final outputs.
+The GitHub repository contains the principal code, documentation, report figures, lightweight result tables, and the QGIS project. Large raw imagery, intermediate feature stacks, training samples, generated raster outputs, and other size-intensive local data are intentionally excluded. The local project contains the complete processing structure used to generate the published results.
 ---
 5. Results
 5.1 LULC Classification Results

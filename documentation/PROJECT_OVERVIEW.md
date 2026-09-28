@@ -1,4 +1,4 @@
-﻿# Abuja LULC Machine Learning Project — Project Overview
+# Abuja LULC Machine Learning Project — Project Overview
 
 ## Project Title
 
@@ -23,11 +23,11 @@ Five land-cover classes are used:
 
 | Code | Class |
 |---|---|
-| 1 | Built-up area |
-| 2 | Vegetation |
-| 3 | Bare land |
-| 4 | Water |
-| 5 | Cropland |
+| 0 | Built-up |
+| 1 | Vegetation |
+| 2 | Bare land |
+| 3 | Water |
+| 4 | Cropland |
 
 ## Main Objectives
 
@@ -61,14 +61,12 @@ Five land-cover classes are used:
 - `results/` — lightweight numerical results for reproducibility and review
 - `report_figures/` — figures used in the report
 - `notebooks/` — notebook workspace
-- `data/` — local geospatial datasets and intermediate data
-- `outputs/` — generated raster and model outputs retained locally
 - `Abuja_LULC_Analysis.qgz` — QGIS project
 
 Large raw, processed and intermediate datasets are intentionally excluded from the public Git repository.
 
 ## Important Interpretation Note
 
-Historical classifications were developed using year-specific models trained from labels derived from the 2024 reference classification. They therefore should not be interpreted as fully independent ground-truth classifications.
+Historical classifications were developed using year-specific models trained from pseudo-labels derived from the 2024 reference classification. They therefore should not be interpreted as fully independent ground-truth classifications.
 
-The 2026 result is an exploratory transition-based baseline scenario rather than a definitive forecast.
+The 2026 result is an exploratory, quantity-constrained, transition-based baseline scenario using 2022–2024 transition probabilities and deterministic spatial allocation, not a definitive spatial forecast.

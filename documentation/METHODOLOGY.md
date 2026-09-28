@@ -1,4 +1,4 @@
-﻿# Abuja LULC Machine Learning Project — Methodology
+# Abuja LULC Machine Learning Project — Methodology
 
 ## 1. Study Design
 
@@ -162,9 +162,9 @@ A transition-probability approach was used to construct an exploratory 2026 base
 
 Transition probabilities were derived from the 2022–2024 transition matrix.
 
-Expected 2026 class quantities were calculated from the 2024 class quantities and transition probabilities. The resulting changes were then spatially allocated to produce a 2026 baseline raster whose class totals match the calculated targets.
+Expected 2026 class quantities were calculated from the 2024 class quantities and transition probabilities. A deterministic spatial allocation then assigns changes to meet the calculated target class quantities. The result is a quantity-constrained baseline scenario, not a definitive spatial forecast.
 
-This result is a scenario rather than a definitive prediction because it assumes that recent transition tendencies provide a reasonable basis for the next period.
+Transition probabilities are estimated from 2022–2024. The resulting 2026 map is an exploratory, quantity-constrained, transition-based baseline scenario; deterministic allocation produces a spatial illustration but does not establish where future development will occur.
 
 ## 12. Reproducibility
 

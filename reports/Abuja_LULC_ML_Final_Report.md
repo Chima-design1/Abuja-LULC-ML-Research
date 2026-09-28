@@ -273,11 +273,11 @@ The percentage of changed pixels was calculated relative to the valid pixels ava
 The resulting change maps therefore represent modeled changes in classified land-cover classes. They should not be interpreted as direct field-confirmed land transformations because classification uncertainty can contribute to apparent transitions.
 ### 4.11 LULC Transition Analysis
 A transition matrix was generated for each pair of observation years.
-The transition matrix records the number of pixels moving from an initial class to a subsequent class. Rows represent the class at the beginning of the period, while columns represent the class at the end of the period.
+The transition matrix records the number of pixels moving from an initial class to a subsequent class. Rows represent the class at the beginning of the period, while columns represent the class at the end of the period. Each transition comparison uses pixels valid in both year maps (the intersection of non-NoData cells); consequently, its source-class totals can differ slightly from the per-year area statistics, which use each year's valid pixels.
 The transition analysis was used to identify dominant modeled transitions and to examine whether particular classes were persistent or frequently exchanged with other classes.
 Transition areas were calculated by multiplying transition pixel counts by the 10 m × 10 m pixel area.
 The 2018–2024 transition matrix was also used to examine longer-term changes across the entire study period.
-4.12 2026 Baseline Scenario
+### 4.12 2026 Baseline Scenario
 A transition-based 2026 baseline scenario was developed using the observed 2022–2024 transition structure.
 Rather than simply copying the 2024 map forward, row-wise transition probabilities were calculated from the 2022–2024 transition matrix.
 For each initial class, the transition probability was calculated as:
@@ -381,7 +381,7 @@ The pixel-based change analysis showed the following proportions of changed pixe
 The results indicate that a substantial proportion of classified pixels changed class between observation dates.
 However, these values should not be interpreted as equivalent to independently verified physical land transformation. Classification errors and uncertainty can generate apparent transitions, particularly where spectrally similar classes are involved.
 The 2018–2024 result showed the largest overall proportion of changed pixels, with approximately 51.06% of valid comparison pixels assigned different classes between the two endpoints.
-5.7 2026 Baseline Scenario
+### 5.7 2026 Baseline Scenario
 The transition-based 2026 baseline scenario projected an increase in the Built-up class relative to 2024.
 The 2024 and 2026 baseline areas were:
 | Class | 2024 (km²) | 2026 baseline (km²) | Change (km²) |
@@ -554,7 +554,7 @@ Future monitoring should maintain the same spatial boundary, class definitions, 
 - Tucker, C. J. (1979). Red and photographic infrared linear combinations for monitoring vegetation. Remote Sensing of Environment, 8, 127–150.
 - Zha, Y., Gao, J., & Ni, S. (2003). Use of normalized difference built-up index in automatically mapping urban areas from TM imagery. *International Journal of Remote Sensing*, 24, 583–594.
 ---
-Appendices
+## Appendices
 ### Appendix A — LULC Class Definitions
 | Class code | Class | Description |
 |---:|---|---|

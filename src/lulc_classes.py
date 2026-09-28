@@ -1,9 +1,9 @@
-﻿LULC_CLASSES = {
-    1: "Built-up area",
-    2: "Vegetation",
-    3: "Bare land",
-    4: "Water",
-    5: "Cropland",
+LULC_CLASSES = {
+    0: "Built-up",
+    1: "Vegetation",
+    2: "Bare land",
+    3: "Water",
+    4: "Cropland",
 }
 
 

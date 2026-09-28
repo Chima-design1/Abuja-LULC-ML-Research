@@ -95,7 +95,7 @@ requirements.txt
 
 ## Software and tools
 
-Python, NumPy, Pandas, Rasterio, GeoPandas, Shapely, scikit-learn, Matplotlib, QGIS and Git/GitHub. Exact Python package dependencies are listed in requirements.txt.
+Python, NumPy, Pandas, Rasterio, GeoPandas, Shapely, scikit-learn, Matplotlib, QGIS and Git/GitHub. Direct Python dependencies are listed in requirements.txt; tested package versions are not pinned, so this file is not a fully locked environment.
 
 ## Project status
 

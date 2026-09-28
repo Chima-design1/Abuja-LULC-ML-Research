@@ -4,4 +4,7 @@ rasterio
 geopandas
 shapely
 scikit-learn
+joblib
 matplotlib
+boto3
+pystac-client
